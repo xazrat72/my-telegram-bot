@@ -4,7 +4,7 @@ import telebot
 from flask import Flask
 
 # --- Настройки бота ---
-TOKEN = "8912264336:AAE-WsKKJ4whiNSobgLTwJJo5AtJZKsA4Vg"
+TOKEN = "TOKEN = os.environ.get("TOKEN")"
 bot = telebot.TeleBot(TOKEN)
 
 # --- Маленький веб-сервер для Render ---
